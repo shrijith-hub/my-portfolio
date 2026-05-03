@@ -255,7 +255,7 @@
 </section>
 <!-- About Section -->
 <section class="py-32 px-8 max-w-7xl mx-auto border-t border-white/5">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-stretch">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
 <div class="md:col-span-8 glass-card p-12 rounded-2xl flex flex-col justify-between">
 <div>
 <h2 class="font-h2 text-h2 text-white mb-8">Professional Persona</h2>
@@ -281,17 +281,16 @@
 </div>
 </div>
 </div>
-<div class="md:col-span-4 glass-card p-10 rounded-2xl flex flex-col">
-<h3 class="text-label-caps text-primary mb-8 font-bold tracking-widest uppercase">Technical Stack</h3>
-<div class="flex flex-wrap gap-3 mt-auto">
-<span class="px-4 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">Python</span>
-<span class="px-4 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">JavaScript</span>
-<span class="px-4 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">HTML5</span>
-<span class="px-4 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">Tailwind CSS</span>
-<span class="px-4 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">GitHub</span>
-<span class="px-4 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">React.js</span>
-<span class="px-4 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">Node.js</span>
-<span class="px-4 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">Prompt Engineering</span>
+<div class="md:col-span-4 glass-card p-6 rounded-2xl flex flex-col">
+<h3 class="text-label-caps text-primary mb-6 font-bold tracking-widest uppercase">Skills</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+<span class="px-3 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">Python</span>
+<span class="px-3 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">JavaScript</span>
+<span class="px-3 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">HTML</span>
+<span class="px-3 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">CSS</span>
+<span class="px-3 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">GitHub</span>
+<span class="px-3 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">Prompt Engineering</span>
+<span class="px-3 py-2 glass rounded-lg text-xs font-bold text-white hover:bg-primary/10 transition-colors cursor-default">Copywriting</span>
 </div>
 </div>
 </div>
@@ -302,11 +301,6 @@
 <div>
 <h2 class="font-h2 text-h2 text-white">Featured Projects</h2>
 <p class="text-on-surface-variant mt-2 opacity-70">A selection of my recent works in software development and AI.</p>
-</div>
-<a class="text-primary font-bold hover:text-white transition-colors flex items-center gap-2 group" href="#">
-                    View Archive
-                    <span class="material-symbols-outlined text-sm transition-transform group-hover:translate-x-1" data-icon="arrow_outward">arrow_outward</span>
-</a>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
 <!-- Project 1 -->
@@ -324,12 +318,6 @@
 <p class="text-on-surface-variant opacity-80 leading-relaxed text-sm">
                             A robust full-stack automated payroll solution optimizing HR workflows with real-time dashboards and analytics inspired by enterprise standards.
                         </p>
-<div class="pt-4 mt-auto">
-<button class="px-6 py-2.5 border border-white/10 rounded-lg text-white font-semibold text-sm hover:bg-white/5 transition-all flex items-center gap-2 group/btn">
-                                View Case Study
-                                <span class="material-symbols-outlined text-sm opacity-50 group-hover/btn:opacity-100 transition-opacity" data-icon="open_in_new">open_in_new</span>
-</button>
-</div>
 </div>
 </div>
 <!-- Project 2 -->
@@ -347,12 +335,6 @@
 <p class="text-on-surface-variant opacity-80 leading-relaxed text-sm">
                             Advanced conversational agent leveraging Model Context Protocol for deep contextual awareness and complex reasoning capabilities.
                         </p>
-<div class="pt-4 mt-auto">
-<button class="px-6 py-2.5 border border-white/10 rounded-lg text-white font-semibold text-sm hover:bg-white/5 transition-all flex items-center gap-2 group/btn">
-                                View Repository
-                                <span class="material-symbols-outlined text-sm opacity-50 group-hover/btn:opacity-100 transition-opacity" data-icon="code">code</span>
-</button>
-</div>
 </div>
 </div>
 </div>
@@ -434,6 +416,13 @@
 <div>
 <h4 class="text-sm font-bold text-white">Anthropic AI</h4>
 <p class="text-[10px] text-on-surface-variant uppercase tracking-wider font-semibold">Claude AI Engineering</p>
+</div>
+</div>
+<div class="glass p-5 rounded-xl flex items-center gap-4 hover-card">
+<span class="material-symbols-outlined text-primary text-2xl" data-icon="developer_mode">developer_mode</span>
+<div>
+<h4 class="text-sm font-bold text-white">Full Stack Development Virtual Internship</h4>
+<p class="text-[10px] text-on-surface-variant uppercase tracking-wider font-semibold">Marcello Tech • Certification / Internship</p>
 </div>
 </div>
 </div>
@@ -554,3 +543,4 @@
   document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
   initTheme();
 </script></body></html>
+
